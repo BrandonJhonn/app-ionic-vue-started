@@ -1,0 +1,7 @@
+{
+  "name": "app-start-blank-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
