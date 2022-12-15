@@ -1,14 +1,21 @@
 <template>
     <ion-page>
-      <ion-header>
+      <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-buttons slot="start">
+          <ion-buttons>
             <ion-back-button default-href="/home"></ion-back-button>
+            <ion-title>Form Controls</ion-title>
           </ion-buttons>
-          <ion-title>Form Controls</ion-title>
         </ion-toolbar>
       </ion-header>
+
       <ion-content :fullscreen="true">
+        <ion-header collapse="condense">
+          <ion-toolbar>
+            <ion-title size="large">Form Controls</ion-title>
+          </ion-toolbar>
+        </ion-header>
+
         <ion-list>
             <ion-item>
                 <ion-label>Default input</ion-label>

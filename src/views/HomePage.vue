@@ -47,7 +47,9 @@
             <ion-row>
               <ion-col></ion-col>
               <ion-col></ion-col>
-              <ion-col><ion-button href="/angular">More</ion-button></ion-col>
+              <ion-col>
+                <ion-button href="/angular">More</ion-button>
+              </ion-col>
             </ion-row>
           </ion-grid>
         </ion-card-content>
@@ -66,7 +68,9 @@
             <ion-row>
               <ion-col></ion-col>
               <ion-col></ion-col>
-              <ion-col><ion-button href="/react">More</ion-button></ion-col>
+              <ion-col>
+                <ion-button href="/react">More</ion-button>
+              </ion-col>
             </ion-row>
           </ion-grid>
         </ion-card-content>
