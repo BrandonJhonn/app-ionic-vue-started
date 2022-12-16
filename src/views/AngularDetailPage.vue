@@ -35,7 +35,7 @@
 
         <ion-row class="ion-text-center">
           <ion-col size="12">
-            <h4>Alert with Options</h4>
+            <h4>Alert Toast</h4>
             <ion-button expand="inline" @click="presentToast('top')"
               >Toast-Top</ion-button
             >
